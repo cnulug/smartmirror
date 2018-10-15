@@ -1,18 +1,18 @@
 body {background-image: url("background.jpg");}
 
-.footer{ 
-	position: fixed;     
+.footer{
+	position: fixed;
 	text-align: center;
 	color: #F2FBC4;
-	font-size: 10px;
+	font-size: 15px;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	bottom: 0px; 
+	bottom: 0px;
 	width: 100%;
 	-webkit-animation: slidein 2s;
 	-moz-animation: slidein 2s;
 	animation: slidein 2s;
 }
- 
+
 h1  {
 		color: #F2FBC4;
 		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -39,19 +39,21 @@ h2	{
 p1	{
 		color: #F2FBC4;
 		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-		text-indent: 50%
 		-webkit-animation: slidein 2s;
 		-moz-animation: slidein 2s;
 		animation: slidein 2s;
-		font-size: 15px;
+		font-size: 20px;
 }
 
 div1 {
-    width: 300px;
-    padding: 25px;
-    margin: 35%;
+		position: absolute;
+  	left: 40%;
 }
-	  
+
+br {
+			line-height: 180%;
+}
+
 @keyframes fadein {
 	from { opacity: 0; }
 	to   { opacity: 1; }
