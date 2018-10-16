@@ -1,0 +1,7 @@
+To run test cases:
+
+1. return to base app directory (speech_handler/)
+
+2. run the command "python3 -m unittest tests.*test_file.py* "
+
+3. If the tests comeback as 'OK' all testcases have passed.
