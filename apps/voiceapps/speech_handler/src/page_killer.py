@@ -26,7 +26,7 @@ def openPage(page):
     """
     if (os.path.isfile(page)):
         url = 'file:{}'.format(pathname2url(os.path.abspath(page)))
-        browser = subprocess.Popen(['firefox', url])
+        browser = subprocess.Popen(['firefox', url], start_new_session=True)
         time.sleep(30)
         browser.terminate()
     else:
